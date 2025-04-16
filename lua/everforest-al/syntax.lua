@@ -130,6 +130,7 @@ function M.generate_syntax()
    -- treesitter
    set_hl("@attribute", { fg = palette.purple })
    set_hl("@boolean", { fg = palette.purple, bold = true })
+   set_hl("@conceal", { fg = palette.gray1 })
    set_hl("@constant", { fg = palette.purple, bold = true })
    set_hl("@constant.builtin", { fg = palette.purple, bold = true })
    set_hl("@constructor", { fg = palette.fg })
