@@ -143,7 +143,7 @@ function M.generate_syntax()
    set_hl("@tag", { fg = palette.orange, bold = true })
    set_hl("@tag.attribute", { fg = palette.aqua, bold = true })
    set_hl("@tag.delimiter", { fg = palette.red, bold = false })
-   -- set_hl("@type", { fg = palette.yellow, bold = true })
+   set_hl("@type", { link = "Type" })
    set_hl("@variable", { fg = palette.fg, bold = true })
    set_hl("@variable.builtin", { fg = palette.yellow })
    set_hl("@variable.member", { fg = palette.blue, bold = false })
@@ -176,6 +176,14 @@ function M.generate_syntax()
    for kind, color in pairs(lsp_kind_colors) do
       set_hl("BlinkCmpKind" .. kind, { fg = color })
    end
+
+   set_hl("LazyReasonKeys", { fg = palette.red })
+   set_hl("LazyReasonRequire", { fg = palette.red })
+   set_hl("LazyReasonEvent", { fg = palette.orange })
+   set_hl("LazyReasonImport", { fg = palette.blue })
+   set_hl("LazyReasonPlugin", { fg = palette.yellow })
+   set_hl("LazyReasonStart", { fg = palette.blue })
+   set_hl("LazyCommitIssue", { fg = palette.orange })
 end
 
 return M
