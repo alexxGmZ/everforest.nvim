@@ -47,10 +47,32 @@ function M.generate_syntax()
       Variable = palette.blue,
    }
 
+   set_hl("FloatBorder", { fg = palette.fg })
    set_hl("Normal", { fg = palette.fg, bg = palette.bg })
    set_hl("NormalFloat", { link = "Normal" })
    set_hl("Visual", { bg = palette.bg_visual })
 
+   -- treesitter
+   set_hl("@attribute", { fg = palette.purple })
+   set_hl("@boolean", { fg = palette.purple, bold = true })
+   set_hl("@constant", { fg = palette.purple, bold = true })
+   set_hl("@constant.builtin", { fg = palette.purple, bold = true })
+   set_hl("@function", { fg = palette.orange, bold = true })
+   set_hl("@keyword", { fg = palette.orange })
+   set_hl("@keyword.conditional", { fg = palette.red })
+   set_hl("@keyword.function", { fg = palette.red })
+   set_hl("@keyword.import", { fg = palette.red })
+   set_hl("@module", { fg = palette.yellow })
+   set_hl("@number", { fg = palette.purple, bold = true })
+   set_hl("@operator", { fg = palette.orange })
+   set_hl("@property", { fg = palette.blue })
+   set_hl("@punctuation", { fg = palette.fg })
+   set_hl("@string", { fg = palette.green })
+   set_hl("@type", { fg = palette.yellow, bold = true })
+   set_hl("@variable", { fg = palette.fg, bold = true })
+   set_hl("@variable.builtin", { fg = palette.yellow })
+   set_hl("@variable.member", { fg = palette.blue, bold = false })
+   set_hl("@variable.parameter", { fg = palette.red, bold = true })
 
    -- blink-cmp
    for kind, color in pairs(lsp_kind_colors) do
