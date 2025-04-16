@@ -1,1 +1,1 @@
-require("everforest").setup()
+require("everforest-al").setup()

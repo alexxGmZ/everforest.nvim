@@ -15,7 +15,8 @@ local palette = {
       purple = "#D699B6",
       orange = "#E69875",
       fg = "#D3C6AA",
-      bg = "#272E33"
+      bg = "#272E33",
+      bg_visual = "#493B40",
    },
    light = {
       red = "#F85552",
@@ -31,7 +32,8 @@ local palette = {
       purple = "#DF69BA",
       orange = "#F57D26",
       fg = "#5C6A72",
-      bg = "#FFFBEF"
+      bg = "#FFFBEF",
+      bg_visual = "#F0F2D4",
    },
 }
 

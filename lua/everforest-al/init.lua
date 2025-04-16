@@ -1,5 +1,5 @@
 local M = {}
-local generate_syntax = require("everforest.syntax").generate_syntax
+local generate_syntax = require("everforest-al.syntax").generate_syntax
 
 --- nvim-notify support
 ---@param message string notify message
