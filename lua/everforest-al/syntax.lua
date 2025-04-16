@@ -177,6 +177,7 @@ function M.generate_syntax()
       set_hl("BlinkCmpKind" .. kind, { fg = color })
    end
 
+   set_hl("LazyReasonCmd", { fg = palette.green })
    set_hl("LazyReasonKeys", { fg = palette.red })
    set_hl("LazyReasonRequire", { fg = palette.red })
    set_hl("LazyReasonEvent", { fg = palette.orange })
