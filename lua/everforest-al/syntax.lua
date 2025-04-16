@@ -192,6 +192,7 @@ function M.generate_syntax()
       set_hl("BlinkCmpKind" .. kind, { fg = color })
    end
 
+   -- lazy-nvim
    set_hl("LazyReasonCmd", { fg = palette.green })
    set_hl("LazyReasonKeys", { fg = palette.red })
    set_hl("LazyReasonRequire", { fg = palette.red })
@@ -200,6 +201,9 @@ function M.generate_syntax()
    set_hl("LazyReasonPlugin", { fg = palette.yellow })
    set_hl("LazyReasonStart", { fg = palette.blue })
    set_hl("LazyCommitIssue", { fg = palette.orange })
+
+   -- dashboard-nvim
+   set_hl("DashboardHeader", { fg = palette.aqua })
 end
 
 return M
