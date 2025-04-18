@@ -238,6 +238,24 @@ function M.generate_syntax()
 
    -- dashboard-nvim
    set_hl("DashboardHeader", { fg = palette.aqua })
+
+   -- fzf / fzf-lua
+   set_hl("FzfLuaBorder", { link = "FzfLuaBorder" })
+   set_hl("FzfLuaBufName", { fg = palette.purple })
+   set_hl("FzfLuaBufNr", { fg = palette.yellow })
+   set_hl("FzfLuaBufFlagAlt", { fg = palette.blue })
+   set_hl("FzfLuaBufFlagCur", { fg = palette.orange })
+   set_hl("FzfLuaDirPart", { link = "Comment" })
+   set_hl("FzfLuaFzfMatch", { fg = palette.blue })
+   set_hl("FzfLuaFzfPrompt", { fg = palette.blue })
+   set_hl("FzfLuaHeaderBind", { fg = palette.yellow })
+   set_hl("FzfLuaHeaderText", { fg = palette.orange })
+   set_hl("FzfLuaLiveSym", { fg = palette.orange })
+   set_hl("FzfLuaPathColNr", { fg = palette.blue })
+   set_hl("FzfLuaPathLineNr", { fg = palette.green })
+   set_hl("FzfLuaTabTitle", { fg = palette.aqua })
+   set_hl("FzfLuaTabMarker", { fg = palette.yellow })
+   set_hl("FzfLuaTitle", { link = "FzfLuaBorder" })
 end
 
 return M
