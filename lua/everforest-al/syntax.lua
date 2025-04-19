@@ -262,6 +262,14 @@ function M.generate_syntax()
    set_hl("FzfLuaTabTitle", { fg = palette.aqua })
    set_hl("FzfLuaTabMarker", { fg = palette.yellow })
    set_hl("FzfLuaTitle", { link = "FzfLuaBorder" })
+
+   -- nvim-tree
+   set_hl("NvimTreeExecFile", { fg = palette.yellow })
+   set_hl("NvimTreeFolderName", { fg = palette.blue })
+   set_hl("NvimTreeGitDirtyIcon", { fg = palette.red })
+   set_hl("NvimTreeGitStagedIcon", { fg = palette.green })
+   set_hl("NvimTreeImageFile", { fg = palette.orange })
+   set_hl("NvimTreeOpenedFolderName", { fg = palette.aqua })
 end
 
 return M
