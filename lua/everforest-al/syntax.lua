@@ -276,6 +276,12 @@ function M.generate_syntax()
    set_hl("diffLine", { fg = palette.blue })
    set_hl("diffNewFile", { fg = palette.green })
    set_hl("diffOldFile", { fg = palette.red })
+   set_hl("fugitiveStagedHeading", { fg = palette.green, bold = true })
+   set_hl("fugitiveStagedModifier", { link = "fugitiveStagedHeading" })
+   set_hl("fugitiveUntrackedHeading", { fg = palette.red, bold = true })
+   set_hl("fugitiveUntrackedModifier", { link = "fugitiveUntrackedHeading" })
+   set_hl("fugitiveUnstagedHeading", { fg = palette.orange, bold = true })
+   set_hl("fugitiveUnstagedModifier", { link = "fugitiveUnstagedHeading" })
 end
 
 return M
