@@ -270,6 +270,12 @@ function M.generate_syntax()
    set_hl("NvimTreeGitStagedIcon", { fg = palette.green })
    set_hl("NvimTreeImageFile", { fg = palette.orange })
    set_hl("NvimTreeOpenedFolderName", { fg = palette.aqua })
+
+   -- vim-fugitive
+   set_hl("diffFile", { fg = palette.orange })
+   set_hl("diffLine", { fg = palette.blue })
+   set_hl("diffNewFile", { fg = palette.green })
+   set_hl("diffOldFile", { fg = palette.red })
 end
 
 return M
