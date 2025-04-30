@@ -1,23 +1,23 @@
-*everforest-al.txt*                                            *everforest-al*
+*everforest.txt*                                                  *everforest*
 
 ==============================================================================
-Table of Contents                            *everforest-al-table-of-contents*
+Table of Contents                               *everforest-table-of-contents*
 
-1. everforest.nvim                             |everforest-al-everforest.nvim|
-  - What’s the difference from the original and the Lua port?|everforest-al-everforest.nvim-what’s-the-difference-from-the-original-and-the-lua-port?|
-  - Installation                  |everforest-al-everforest.nvim-installation|
-  - Highlight Overrides    |everforest-al-everforest.nvim-highlight-overrides|
-2. Links                                                 |everforest-al-links|
+1. everforest.nvim                                |everforest-everforest.nvim|
+  - What’s the difference from the original and the Lua port?|everforest-everforest.nvim-what’s-the-difference-from-the-original-and-the-lua-port?|
+  - Installation                     |everforest-everforest.nvim-installation|
+  - Highlight Overrides       |everforest-everforest.nvim-highlight-overrides|
+2. Links                                                    |everforest-links|
 
 ==============================================================================
-1. everforest.nvim                             *everforest-al-everforest.nvim*
+1. everforest.nvim                                *everforest-everforest.nvim*
 
 My own implementation of Everforest colorscheme/theme.
 
  
 
 
-WHAT’S THE DIFFERENCE FROM THE ORIGINAL AND THE LUA PORT?*everforest-al-everforest.nvim-what’s-the-difference-from-the-original-and-the-lua-port?*
+WHAT’S THE DIFFERENCE FROM THE ORIGINAL AND THE LUA PORT?*everforest-everforest.nvim-what’s-the-difference-from-the-original-and-the-lua-port?*
 
 - Lots of Orange and Red.
     - These colors offer excellent contrast and visual clarity.
@@ -28,24 +28,24 @@ WHAT’S THE DIFFERENCE FROM THE ORIGINAL AND THE LUA PORT?*everforest-al-everfo
  
 
 
-INSTALLATION                      *everforest-al-everforest.nvim-installation*
+INSTALLATION                         *everforest-everforest.nvim-installation*
 
 >lua
     return {
        "alexxGmZ/everforest.nvim",
        priority = 1000,
        config = function ()
-          vim.cmd.colorscheme "everforest-al"
+          vim.cmd.colorscheme "everforest"
        end
     }
 <
 
 
-HIGHLIGHT OVERRIDES        *everforest-al-everforest.nvim-highlight-overrides*
+HIGHLIGHT OVERRIDES           *everforest-everforest.nvim-highlight-overrides*
 
 >lua
     local set_hl = vim.api.nvim_set_hl
-    local palette = require("everforest-al.palette").get_palette()
+    local palette = require("everforest.palette").get_palette()
     --[[
     -- dark mode
     {
@@ -94,7 +94,7 @@ HIGHLIGHT OVERRIDES        *everforest-al-everforest.nvim-highlight-overrides*
 <
 
 ==============================================================================
-2. Links                                                 *everforest-al-links*
+2. Links                                                    *everforest-links*
 
 1. *Screenshot_2025-04-17_09-52-50*: https://github.com/user-attachments/assets/d3552e10-e929-464b-9b8e-6e9b5a90a1a6
 
