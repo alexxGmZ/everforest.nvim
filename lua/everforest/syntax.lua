@@ -9,7 +9,7 @@ end
 
 function M.generate_syntax()
    local set_var = vim.api.nvim_set_var
-   local palette = require("everforest-al.palette").get_palette()
+   local palette = require("everforest.palette").get_palette()
    local lsp_kind_colors = {
       Array = palette.aqua,
       Boolean = palette.aqua,

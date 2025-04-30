@@ -23,7 +23,7 @@ return {
    "alexxGmZ/everforest.nvim",
    priority = 1000,
    config = function ()
-      vim.cmd.colorscheme "everforest-al"
+      vim.cmd.colorscheme "everforest"
    end
 }
 ```
@@ -32,7 +32,7 @@ return {
 
 ```lua
 local set_hl = vim.api.nvim_set_hl
-local palette = require("everforest-al.palette").get_palette()
+local palette = require("everforest.palette").get_palette()
 --[[
 -- dark mode
 {

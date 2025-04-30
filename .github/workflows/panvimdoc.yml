@@ -16,9 +16,9 @@ jobs:
       - uses: actions/checkout@v2
       - uses: kdheepak/panvimdoc@main
         with:
-          vimdoc: 'everforest-al'
+          vimdoc: 'everforest'
           pandoc: 'README.md'
-          description: '*everforest-al*'
+          description: '*everforest*'
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:

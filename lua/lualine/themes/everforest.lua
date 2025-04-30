@@ -1,4 +1,4 @@
-local palette = require("everforest-al.palette").get_palette()
+local palette = require("everforest.palette").get_palette()
 
 return {
    normal = {
