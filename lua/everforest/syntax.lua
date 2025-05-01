@@ -234,14 +234,16 @@ function M.generate_syntax()
    end
 
    -- lazy-nvim
+   set_hl("LazyCommitIssue", { fg = palette.orange })
    set_hl("LazyReasonCmd", { fg = palette.green })
    set_hl("LazyReasonKeys", { fg = palette.red })
    set_hl("LazyReasonRequire", { fg = palette.red })
    set_hl("LazyReasonEvent", { fg = palette.orange })
+   set_hl("LazyReasonFt", { fg = palette.purple })
    set_hl("LazyReasonImport", { fg = palette.blue })
    set_hl("LazyReasonPlugin", { fg = palette.yellow })
    set_hl("LazyReasonStart", { fg = palette.blue })
-   set_hl("LazyCommitIssue", { fg = palette.orange })
+   set_hl("LazyReasonSource", { fg = palette.aqua })
 
    -- dashboard-nvim
    set_hl("DashboardHeader", { fg = palette.aqua })
