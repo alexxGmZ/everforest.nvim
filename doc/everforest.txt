@@ -1,4 +1,5 @@
 *everforest.txt*                                                  *everforest*
+                               For NVIM v0.8.0    Last change: 2026 October 14
 
 ==============================================================================
 Table of Contents                               *everforest-table-of-contents*
@@ -14,7 +15,7 @@ Table of Contents                               *everforest-table-of-contents*
 
 My own implementation of Everforest colorscheme/theme.
 
- 
+
 
 
 WHAT’S THE DIFFERENCE FROM THE ORIGINAL AND THE LUA PORT?*everforest-everforest.nvim-what’s-the-difference-from-the-original-and-the-lua-port?*
@@ -25,7 +26,7 @@ WHAT’S THE DIFFERENCE FROM THE ORIGINAL AND THE LUA PORT?*everforest-everfores
     - The implementation is simpler and more direct.
     - Colors are assigned straight to highlight groups—no layers of abstraction.
 
- 
+
 
 
 INSTALLATION                         *everforest-everforest.nvim-installation*
@@ -67,7 +68,7 @@ HIGHLIGHT OVERRIDES           *everforest-everforest.nvim-highlight-overrides*
       bg_visual = "#493B40",
       gray1 = "#859289"
     }
-    
+
     -- light mode
     {
       red = "#F85552",
@@ -89,7 +90,7 @@ HIGHLIGHT OVERRIDES           *everforest-everforest.nvim-highlight-overrides*
       gray1 = "#939F91"
     }
     ]]
-    
+
     set_hl(0, "Group", { fg = palette.red, bold = true, italic = true })
 <
 
